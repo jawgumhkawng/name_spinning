@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    font-size: 30px;
+}
+
+body {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    color: rgb(124, 124, 124);
+    font-family: "Poppins",sans-serif;
+}
+
+.loader {
+    margin-top: 30px;
+    position: absolute;
+    top: 40%;
+    color: rgb(124, 124, 124);
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    box-sizing: content-box;
+    height: 40px;
+    padding: 10px 10px;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #212121;
+    width: 300px;
+    padding: 15px;
+ 
+   
+}
+
+.words {
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.word {
+    display: block;
+    height: 100%;
+    padding-left: 6px;
+    color: #956afa;
+    animation: spin_4991 4s infinite;
+}
+
+@keyframes spin_4991 {
+    10% {
+        transform: translateY(-105%);
+    }
+    25% {
+        transform: translateY(-100%);
+    }
+    35% {
+        transform: translateY(-205%);
+    }
+    50% {
+        transform: translateY(-200%);
+    }
+    65% {
+        transform: translateY(-305%);
+    }
+    75% {
+        transform: translateY(-300%);
+    }
+    85% {
+        transform: translateY(-405%);
+    }
+    100% {
+        transform: translateY(-400%);
+    }
+}
